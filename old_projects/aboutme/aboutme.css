@@ -1,0 +1,42 @@
+#aboutmeheader {
+    color: rgb(0, 179, 101);
+    font-size: 35pt;
+    font-family: Impact;
+    text-align: center;
+}
+.hmm {
+    font-family: Impact;
+    font-size: 12pt;
+}
+.hm {
+    font-family: Trebuchet MS;
+    font-weight: bolder;
+}
+li {
+    font-family: Impact;
+    font-size: 12pt;
+}
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.twoimages {
+    display: block;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#hmmmm {
+    font-family: Impact;
+    font-size: 13pt;
+    font-style: oblique;
+}
+body {
+    background: rgb(232, 228, 228);
+}
+#endheader {
+    font-family: Trebuchet MS;
+    font-weight: bolder;
+    text-align: center;
+}
