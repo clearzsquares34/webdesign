@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <h1>Chess in Real Life</h1>
+        <p id="prompt">{{text_to_show}}</p>
+        
+        <!-- shows the links for the two options the user has -->
+        <!-- remember! this page is used no matter where the user is in the story. all of this is generic -->
+        <div id="options">
+            <a id="option1" href="/{{option_1_result}}">{{option_1_text}}</a>
+            <a id="option2" href="/{{option_2_result}}">{{option_2_text}}</a>
+        </div>
+
+        <img id="chessimg1" src="img/{{image_name}}">
+        <!-- you can still use css to style items here -->
+        <!-- try adding the following code to your css file
+            #option1 {
+            }
+            #prompt {
+            }
+            #options {
+            }
+        -->
+    </body>
+</html>
